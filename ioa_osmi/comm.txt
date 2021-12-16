@@ -1,0 +1,28 @@
+# napraviti matricu 20k redova od {0,1,2}
+    # 20k x 64
+# generisati polaznu generaciju ove matrica gore random
+# 50 generacija po 20k
+    # racunanje opt fje
+        # zvaki red matrice
+        # pamtiti najbolju
+#while (i < 50 ):
+    # selekcija:
+        # izabrati 4000 najboljig (najbolja opt vrednost) od 20k
+        # matrica.sort(key = opt)
+             # odsecem 4000 prvih tj ostavim njih
+    # ukrsanje
+        # radnom unifor 0.6 - 0.9
+            # 0.7
+        # generisati random float, ako je manji od 0.7 onda uskociti u 0.7
+            # odredim randint do 64 vrednost koja je poz za presek
+                # uraditi ovo sa 21
+            # 10 k puta po 2 elemnta
+        # ako nije manje  od 0.7 onda ih direkt ubacujem u sledecu generaciju
+
+    # mutacija - dobijena je nova generaicija
+        # prolazi se krzo 20k elem od onih pre
+        # vrv je 0.15
+        # ako je random float manji 0.15 onda radim mutiranje, ako ne onda radim dalje
+            # generise se random int 0-64, poz u redu koja menja
+            # generisanje radn int [0,2]
+            # radnom broj na rand poziciju
